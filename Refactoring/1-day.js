@@ -1,6 +1,11 @@
 // Get day number
 
-let D = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+// Step 1
+// Add 'use strict';
+
+"use strict";
+
+let D = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
 _parse_day_ = (s) => {
   let i;
@@ -12,4 +17,4 @@ _parse_day_ = (s) => {
   return -1;
 };
 
-require('../Tests/day.js')(_parse_day_);
+require("../Tests/day.js")(_parse_day_);

@@ -1,18 +1,18 @@
 // Get month number
 
 Months = [
-  'jan',
-  'feb',
-  'mar',
-  'apr',
-  'may',
-  'jun',
-  'jul',
-  'aug',
-  'sep',
-  'oct',
-  'nov',
-  'dec',
+  "jan",
+  "feb",
+  "mar",
+  "apr",
+  "may",
+  "jun",
+  "jul",
+  "aug",
+  "sep",
+  "oct",
+  "nov",
+  "dec",
 ];
 
 Month = (s) => {
@@ -23,4 +23,4 @@ Month = (s) => {
   return -1;
 };
 
-require('../Tests/month.js')(Month);
+require("../Tests/month.js")(Month);
